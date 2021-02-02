@@ -1,0 +1,28 @@
+{
+  "exclude": [
+	"bazel-out",
+	"dist"
+  ],
+  "bazelOptions": {
+	"devmodeTargetOverride": "esnext"
+  },
+  "compilerOptions": {
+	"target": "es2017",
+	"module": "commonjs",
+	"lib": ["dom", "dom.iterable", "esnext", "scripthost"],
+	"declaration": true,
+	"sourceMap": true,
+	"strict": true,
+	"noImplicitAny": true,
+	"strictNullChecks": true,
+	"strictFunctionTypes": true,
+	"noImplicitThis": true,
+	"alwaysStrict": true,
+	"noUnusedParameters": true,
+	"noImplicitReturns": true,
+	"noFallthroughCasesInSwitch": true,
+	"baseUrl": ".",
+	"esModuleInterop": true,
+	"incremental": false
+  }
+}
