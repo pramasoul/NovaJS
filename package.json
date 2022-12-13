@@ -76,7 +76,7 @@
     },
     "dependencies": {
         "@types/uuid": "^7.0.2",
-        "express": "^4.17.1",
+        "express": "^4.17.3",
         "fp-ts": "^2.8.4",
         "global": "^4.4.0",
         "google-protobuf": "^3.11.4",
